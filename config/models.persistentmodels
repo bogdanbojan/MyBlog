@@ -16,3 +16,7 @@ Comment json -- Adding "json" causes ToJSON and FromJSON instances to be derived
     userId UserId Maybe
     deriving Eq
     deriving Show
+
+BlogPost -- this generates a haskell record as well
+    title Text  
+    article Markdown

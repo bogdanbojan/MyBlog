@@ -13,3 +13,4 @@
 
 /profile ProfileR GET
 /posts/new PostNewR GET POST 
+/posts/!#BlogPostId PostDetailsR GET
