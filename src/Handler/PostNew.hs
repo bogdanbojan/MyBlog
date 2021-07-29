@@ -18,6 +18,8 @@ blogPostForm :: AForm Handler BlogPost
 blogPostForm = BlogPost 
             <$> areq textField (bfs ("Title" :: Text)) Nothing
             <*> areq markdownField (bfs ("Article" :: Text)) Nothing
+            <*> areq textField (bfs ("Tags" :: Text)) Nothing
+            
 
 getPostNewR :: Handler Html
 getPostNewR = do

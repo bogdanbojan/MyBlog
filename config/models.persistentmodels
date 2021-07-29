@@ -18,5 +18,6 @@ Comment json -- Adding "json" causes ToJSON and FromJSON instances to be derived
     deriving Show
 
 BlogPost -- this generates a haskell record as well
-    title Text  
+    title Text
     article Markdown
+    tags Text

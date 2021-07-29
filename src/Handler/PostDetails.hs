@@ -1,3 +1,4 @@
+{-# LANGUAGE TemplateHaskell #-}
 module Handler.PostDetails where
 
 import Import
