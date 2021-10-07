@@ -1,6 +1,0 @@
-
-<div .article-title>
-  <h1 .sans-serif> #{blogPostTitle blogPost}
-  <h2 .sans-serif .marginBot-xl> #{blogPostTags blogPost}
-<div .marginTop-xl>
-  #{blogPostArticle blogPost}
