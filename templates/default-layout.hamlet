@@ -1,0 +1,60 @@
+
+$if (Just HomeR == mcurrentRoute)
+ <div .main-container .home-container>
+    <section .home-title>
+     <div .home-header .marginBot-sm>
+      <h1 .title-name>
+       <a href=@{HomeR}>
+        Bogdan Bojan
+      <div .title-links>
+       <ul>
+        <li>
+         <a href="https://www.linkedin.com/in/bogdan-bojan/" target="_blank">
+          Linkedin
+        <li>
+         <a href="mailto:bogdanbojan03@gmail.com" target="_blank">
+          Email
+     <p .title-description>
+      <em>
+       Hello!
+      I'm a product designer with a deep passion for integrated design methodologies. That comes from my background in
+      <a .homepage-link .f-link href="https://fau.utcluj.ro/">
+       Architecture.
+      I also worked in
+      <a .homepage-link .teal-link href="https://www.imdb.com/name/nm10140433/">
+       VFX
+      so I'm able to use quite a few design/3d packages. In my spare time, I used to like to swim. I can't anymore because: pandemic. Bummer.
+      <div .article-body>
+         ^{widget}
+
+      <section .social-media-container .marginTopBot-lg>
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/bogdan-bojan/" target="_blank">
+                    Linkedin
+            <li>
+                <a href="mailto:bogdanbojan03@gmail.com" target="_blank">
+                    Email
+
+
+$else 
+
+    <div .main-container .article-container .marginTop-md>
+        <nav .navbar .content>
+            <a .navbar-link .sans-serif href=@{HomeR}>
+                Bogdan Bojan
+
+
+        <div .article>
+         ^{widget}
+
+
+        <section .social-media-container .marginTopBot-lg>
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/bogdan-bojan/" target="_blank">
+                        Linkedin
+                <li>
+                    <a href="mailto:bogdanbojan03@gmail.com" target="_blank">
+                        Email
+
