@@ -12,14 +12,14 @@ jobs:
             - stack-work-cache-{{ arch }}-{{ checksum "stack.yaml" }}-{{ checksum "package.yaml" }}
             - stack-cache-{{ arch }}-{{ checksum "stack.yaml" }}-{{ checksum "package.yaml" }}
 
-      - run:
-          name: Workaround for GCC bug affecting static compilation
-          command: |
-            # More info about this workaround:
-            # - https://www.fpcomplete.com/blog/2016/10/static-compilation-with-stack
-            # - https://bugs.launchpad.net/ubuntu/+source/gcc-4.4/+bug/640734
-            cp /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginT.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginT.o.orig
-            cp /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginT.o
+      # - run:
+      #     name: Workaround for GCC bug affecting static compilation
+      #     command: |
+      #       # More info about this workaround:
+      #       # - https://www.fpcomplete.com/blog/2016/10/static-compilation-with-stack
+      #       # - https://bugs.launchpad.net/ubuntu/+source/gcc-4.4/+bug/640734
+      #       cp /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginT.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginT.o.orig
+      #       cp /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginT.o
 
       - run:
           name: Configure Stack
