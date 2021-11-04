@@ -1,0 +1,1 @@
+web: dist/bbojan-circleci
