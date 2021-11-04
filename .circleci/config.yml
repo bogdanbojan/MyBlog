@@ -29,8 +29,7 @@ jobs:
       - run:
           name: Statically compile Yesod app
           command: |
-            stack --local-bin-path ~/app/dist install --ghc-options '-optl-static -fPIC'
-
+            stack --local-bin-path ~/app/dist install 
       - run:
           name: Run tests
           command: |
