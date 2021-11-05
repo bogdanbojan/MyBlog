@@ -1,1 +1,1 @@
-echo '{ "name": "lastfuckingtry", "version": "0.0.1", "dependencies": {} }' 
+{ "name": "appname", "version": "0.0.1", "dependencies": {} }
