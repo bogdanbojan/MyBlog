@@ -1,1 +1,1 @@
-web: /dist/MyBlog 
+web: /app/.local/bin/MyBlog
