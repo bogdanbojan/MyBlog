@@ -13,7 +13,7 @@ approot:        "_env:YESOD_APPROOT:https://lastfuckingtry.herokuapp.com"
 # By default, `yesod devel` runs in development, and built executables use
 # production settings (see below). To override this, use the following:
 #
-# development: false
+development: false
 
 # Optional values with the following production defaults.
 # In development, they default to the inverse.
