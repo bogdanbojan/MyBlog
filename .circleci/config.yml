@@ -30,10 +30,6 @@ jobs:
           name: Statically compile Yesod app
           command: |
             stack --local-bin-path ~/app/dist install 
-      - run:
-          name: Run tests
-          command: |
-            stack test
 
       - save_cache:
           key: stack-work-cache-{{ arch }}
