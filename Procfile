@@ -1,1 +1,1 @@
-web:/dist/lastfuckingtry 
+web: yesod-devel
