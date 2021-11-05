@@ -1,1 +1,1 @@
-web: .local/bin/MyBlog/MyBlog production -p $PORT
+web: .local/bin/MyBlog production -p $PORT
