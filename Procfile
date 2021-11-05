@@ -1,1 +1,1 @@
-web: ./dist/bin/MyBlog/MyBlog -p $PORT
+web: ./dist/bin/websiteTest/MyBlog -p $PORT
