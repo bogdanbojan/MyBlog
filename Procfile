@@ -1,1 +1,1 @@
-web: yesod-devel
+web: ./dist/build/lastfuckingtry/lastfuckingtry -p $PORT
