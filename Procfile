@@ -1,1 +1,1 @@
-web: /dist/lastfuckingtry 
+web:/dist/lastfuckingtry 
