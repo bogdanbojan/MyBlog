@@ -1,1 +1,1 @@
-web: dist/bbojan-circleci
+web: ./dist/build/lastfuckingtry -p $PORT
