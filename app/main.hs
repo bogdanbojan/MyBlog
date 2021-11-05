@@ -1,14 +1,5 @@
 import Prelude     (IO)
-import Application ()
-import Foundation
-import Yesod.Core
-import System.Environment
+import Application (appMain)
 
 main :: IO ()
-main = do
-  maybePort <- lookupEnv "PORT"
-  let port =
-        case maybePort of
-          Nothing -> 5000
-          Just portStr -> read portStr :: Int
-  warp port App
+main = appMain
