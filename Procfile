@@ -1,1 +1,1 @@
-web: ./dist/build/lastfuckingtry/lastfuckingtry -p $PORT
+web: ./lastfuckingtry production -p $PORT
