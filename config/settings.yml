@@ -31,7 +31,7 @@ approot:        "_env:YESOD_APPROOT:https://lastfuckingtry.herokuapp.com"
 database:
   user:     "_env:YESOD_PGUSER:myblog"
   password: "_env:YESOD_PGPASS:myblog"
-  host:     "_env:YESOD_PGHOST:postgres://yptnziazxukwzs:8d497e63c1cebbf3feb43c5f54a1dc4feba5fa01c8bc642566e67ddc68dc61bf@ec2-99-80-200-225.eu-west-1.compute.amazonaws.com:5432/d58o5jfvkfa6eq"
+  host:     "_env:YESOD_PGHOST:localhost"
   port:     "_env:YESOD_PGPORT:5432"
   # See config/test-settings.yml for an override during tests
   database: "_env:YESOD_PGDATABASE:myblog"
