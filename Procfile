@@ -1,1 +1,1 @@
-web: ls -l /app/.local/bin
+web: ls -l /app/.local/bin/Myblog
