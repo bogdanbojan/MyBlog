@@ -1,1 +1,1 @@
-web: ls -R -L
+web: ls -l /app/.local/bin
