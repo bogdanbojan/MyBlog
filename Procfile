@@ -1,1 +1,1 @@
-web: /app/DevelMain -p $PORT
+web: ls -R -L
