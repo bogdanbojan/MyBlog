@@ -1,1 +1,1 @@
-web: ls $search_path 
+web: /app/DevelMain -p $PORT
