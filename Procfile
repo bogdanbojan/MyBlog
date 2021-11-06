@@ -1,2 +1,2 @@
-web: tree
+web: find ./ | sed -e 's/[^-][^\/]*\//--/g;s/--/ |-/'
 
