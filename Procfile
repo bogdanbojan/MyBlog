@@ -1,1 +1,1 @@
-web: /app/MyBlog -p $PORT
+web: ls $search_path 
