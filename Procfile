@@ -1,2 +1,1 @@
-web: find ./ | sed -e 's/[^-][^\/]*\//--/g;s/--/ |-/'
-
+web: /MyBlog/MyBlog -p $PORT
