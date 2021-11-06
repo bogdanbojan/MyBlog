@@ -1,1 +1,1 @@
-web: MyBlog-exe
+web: MyBlog
