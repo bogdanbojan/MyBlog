@@ -17,12 +17,12 @@ $if (Just HomeR == mcurrentRoute)
      <p .title-description>
       <em>
        Hello!
-       I'm a guy who's passionate about software. I have a background in 
+      I'm a guy who's passionate about software. I have a background in 
       <a .homepage-link .f-link href="https://fau.utcluj.ro/">
        Architecture.
       I also dabbled with
       <a .homepage-link .teal-link href="https://www.imdb.com/name/nm10140433/">
-       VFX
+       VFX.
       My main interests lie in all things programming related. That's what I do most of the day anyhow. And swimming. And eating. Sometimes running. 
       <div .article-body>
          ^{widget}
